@@ -1,0 +1,144 @@
+
+<html>
+<head>
+<script>
+var casillaAnterior = "a1";
+function buscarCasilla()
+{
+	casillaAnterior.innerHTML="";
+	var posicion=document.getElementById("casilla").value;
+	var casilla = document.getElementById(posicion);
+	var ficha = document.createElement("DIV");
+	ficha.className = "ficha";
+	casilla.appendChild(ficha);
+	casillaAnterior = casilla;
+	}
+
+</script>
+<style>
+.casilla1 {
+    background-color: red;
+    width: 12%;
+    height: 12%;
+    float:left;
+}
+.casilla2 {
+    background-color: black;
+    width: 12%;
+    height: 12%;
+    margin: 0px;
+    float:left;
+}
+.damero {
+    width: 30%;
+	height: 50%;
+    float:left;
+	margin: 10%;
+		
+}
+
+.ficha{
+	background-color: blue;
+	width: 80%;
+	height:80%;
+	margin: 10%;
+	border-radius: 50%;
+	float:left;
+}
+
+</style>
+</head>
+<body>
+
+
+  <label>Casilla</label>
+  <input type="text" id="casilla" name="fname"></input>
+  <button onclick="buscarCasilla()">Crear </button>
+
+
+
+
+
+<div class="damero">
+<div id="a1" class="casilla1"> </div>
+<div id="a2" class="casilla2"> </div>
+<div id="a3" class="casilla1"> </div>
+<div id="a4" class="casilla2"> </div>
+<div id="a5" class="casilla1"> </div>
+<div id="a6" class="casilla2"> </div>
+<div id="a7" class="casilla1"> </div>
+<div id="a8" class="casilla2"> </div>
+
+<div id="b1" class="casilla2"> </div>
+<div id="b2" class="casilla1"> </div>
+<div id="b3" class="casilla2"> </div>
+<div id="b4" class="casilla1"> </div>
+<div id="b5" class="casilla2"> </div>
+<div id="b6" class="casilla1"> </div>
+<div id="b7" class="casilla2"> </div>
+<div id="b8" class="casilla1"> </div>
+
+
+<div id="c1" class="casilla1"> </div>
+<div id="c2" class="casilla2"> </div>
+<div id="c3" class="casilla1"> </div>
+<div id="c4" class="casilla2"> </div>
+<div id="c5" class="casilla1"> </div>
+<div id="c6" class="casilla2"> </div>
+<div id="c7" class="casilla1"> </div>
+<div id="c8" class="casilla2"> </div>
+
+<div id="d1" class="casilla2"> </div>
+<div id="d2" class="casilla1"> </div>
+<div id="d3" class="casilla2"> </div>
+<div id="d4" class="casilla1"> </div>
+<div id="d5" class="casilla2"> </div>
+<div id="d6" class="casilla1"> </div>
+<div id="d7" class="casilla2"> </div>
+<div id="d8" class="casilla1"> </div>
+
+
+
+<div id="e1" class="casilla1"> </div>
+<div id="e2" class="casilla2"> </div>
+<div id="e3" class="casilla1"> </div>
+<div id="e4" class="casilla2"> </div>
+<div id="e5" class="casilla1"> </div>
+<div id="e6" class="casilla2"> </div>
+<div id="e7" class="casilla1"> </div>
+<div id="e8" class="casilla2"> </div>
+
+<div id="f1" class="casilla2"> </div>
+<div id="f2" class="casilla1"> </div>
+<div id="f3" class="casilla2"> </div>
+<div id="f4" class="casilla1"> </div>
+<div id="f5" class="casilla2"> </div>
+<div id="f6" class="casilla1"> </div>
+<div id="f7" class="casilla2"> </div>
+<div id="f8" class="casilla1"> </div>
+
+<div id="g1" class="casilla1"> </div>
+<div id="g2" class="casilla2"> </div>
+<div id="g3" class="casilla1"> </div>
+<div id="g4" class="casilla2"> </div>
+<div id="g5" class="casilla1"> </div>
+<div id="g6" class="casilla2"> </div>
+<div id="g7" class="casilla1"> </div>
+<div id="g8" class="casilla2"> </div>
+
+<div id="h1" class="casilla2"> </div>
+<div id="h2" class="casilla1"> </div>
+<div id="h3" class="casilla2"> </div>
+<div id="h4" class="casilla1"> </div>
+<div id="h5" class="casilla2"> </div>
+<div id="h6" class="casilla1"> </div>
+<div id="h7" class="casilla2"> </div>
+<div id="h8" class="casilla1"> </div>
+
+</div>
+
+
+</body>
+</html>
+
+
